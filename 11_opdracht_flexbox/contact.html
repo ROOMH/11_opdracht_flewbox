@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact</title>
+
+    <body>
+
+        <header> Contact formulieren</header>
+
+        <main>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+            <label>Naam: <input type="text" name="naam" /></label>
+            </p>
+            <p>
+            <label>Email: <input type="email" name="email" id="email" required /></label>
+            </p>
+            <p>
+              <label>Telefoon: <input type="tel" name="telefoon" id="phone" /></label>
+            </p>
+            <p>
+              <label for="man">Man</label>
+              <input type="radio" name="gender" id="male"/>
+              <label for="female">Vrouw</label>
+              <input type="radio" name="gender" id="female" />
+            </p>
+            <p>
+            Favoriete keuken:
+              <label>Franse keuken</label>
+                <input type="checkbox" name="Franse keuken" id="Franse"/>
+              <label>Indonesische keuken</label>
+              <input type="checkbox" name="Indonesische keuken" id="Indonesisch"/>
+            </p>
+
+            <p>
+            <label for="Favoriete kleur schort"></label>
+               <input type="color" name="color" id="color" />
+          </p>
+
+          <p>
+            <label for="Bio"></label>
+            <textarea id="bio" name="bio">
+              tekst
+            </textarea>
+          </p>
+          <p>
+            <label>Bestand uploaden: <input id="file" type="file" name="bestand"/></label>
+          </p>
+          <p>
+            <label for="URL"></label>
+            <input type="url" name="url" id="url" />
+          </p>
+          <p>
+          <button type="submit">submit</button>
+          </p>
+          <p>
+            <button type="submit">submit</button>
+            </p>
+          </form>
+          </main>
+          <footer>
+            <a href="Index.html">home</a>
+        </footer>
+
+    </body>
+</head>
+</html>
